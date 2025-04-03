@@ -12,7 +12,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-8">
+    <div className="max-w-3xl mx-auto p-8 bg-gray-100">
       {/* heading */}
       <h1 className="text-2xl font-bold mb-6 text-gray-800">
         Frequently Asked Questions
