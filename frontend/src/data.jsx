@@ -63,6 +63,7 @@ export const teams = [
     {
       name:"Abdi Noor",
       title:"Developer",
+      profile:member1,
      
       social:[
         {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
@@ -74,6 +75,7 @@ export const teams = [
     {
       name:"Allen Kigen",
       title:"Developer",
+      profile:member1,
      
       social:[
         {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
@@ -85,6 +87,7 @@ export const teams = [
     {
       name:"Masaa Potato",
       title:"Developer",
+      profile:member1,
       
       social:[
         {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
@@ -96,6 +99,7 @@ export const teams = [
     {
       name:"KROP",
       title:"Developer",
+      profile:member1,
       
       social:[
         {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
