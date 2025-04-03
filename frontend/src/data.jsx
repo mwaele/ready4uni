@@ -1,3 +1,7 @@
+
+import { FaYoutube,FaInstagram,FaDrawPolygon } from "react-icons/fa";
+import { CiLinkedin ,CiFacebook} from "react-icons/ci";
+
 export const faqData = [
   {
     question: "How do I know which universities I can apply to?",
@@ -42,3 +46,61 @@ export const faqData = [
       " To improve your cluster points, focus on performing well in subjects relevant to the course you're interested in. You can also explore alternative pathways, such as diploma or certificate courses, which may have different requirements.",
   },
 ];
+export const teams = [
+    {
+      name:"Emmanuel Mwaele",
+      title:"Developer",
+     
+      social:[
+        {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
+        {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
+        {name:"Youtube",icon:<FaYoutube/>,url:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
+        {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
+      ]
+    },
+    {
+      name:"Abdi Noor",
+      title:"Developer",
+     
+      social:[
+        {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
+        {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
+        {name:"Youtube",icon:<FaYoutube/>,url:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
+        {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
+      ]
+    },
+    {
+      name:"Allen Kigen",
+      title:"Developer",
+     
+      social:[
+        {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
+        {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
+        {name:"Youtube",icon:<FaYoutube/>,url:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
+        {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
+      ]
+    },
+    {
+      name:"Masaa Potato",
+      title:"Developer",
+      
+      social:[
+        {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
+        {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
+        {name:"Youtube",icon:<FaYoutube/>,url:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
+        {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
+      ]
+    },
+    {
+      name:"KROP",
+      title:"Developer",
+      
+      social:[
+        {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
+        {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
+        {name:"Youtube",icon:<FaYoutube/>,url:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
+        {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
+      ]
+    },
+  ]
+  
