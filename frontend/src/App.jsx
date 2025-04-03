@@ -1,7 +1,13 @@
 import React from "react";
 import Faq from "./components/faq";
+import Teams from "./components/teams";
 const App = () => {
-  return <Faq />;
+  return (
+    <>
+      <Faq />
+      <Teams />
+    </>
+  );
 };
 
 export default App;
