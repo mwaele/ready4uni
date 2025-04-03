@@ -1,0 +1,38 @@
+{
+  "canisters": {
+    "university_canister": {
+      "main": "src/university_canister/main.mo",
+      "type": "motoko",
+      "metadata": [
+        {
+          "name": "candid:service"
+        }
+      ]
+    },
+    "course_canister": {
+      "main": "src/course_canister/main.mo",
+      "type": "motoko",
+      "metadata": [
+        {
+          "name": "candid:service"
+        }
+      ]
+    },
+    "ai_canister": {
+      "main": "src/ai_canister/main.mo",
+      "type": "motoko",
+      "metadata": [
+        {
+          "name": "candid:service"
+        }
+      ]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "mops sources"
+    }
+  },
+  "version": 1
+}
+
