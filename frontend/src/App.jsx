@@ -1,11 +1,7 @@
 import React from "react";
-
+import Faq from "./components/faq";
 const App = () => {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-50 p-4">
-      App
-    </div>
-  );
+  return <Faq />;
 };
 
 export default App;
