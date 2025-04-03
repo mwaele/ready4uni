@@ -1,6 +1,7 @@
 
 import { FaYoutube,FaInstagram,FaDrawPolygon } from "react-icons/fa";
 import { CiLinkedin ,CiFacebook} from "react-icons/ci";
+import { member1 } from "./assets";
 
 export const faqData = [
   {
@@ -50,6 +51,7 @@ export const teams = [
     {
       name:"Emmanuel Mwaele",
       title:"Developer",
+      profile:member1,
      
       social:[
         {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},

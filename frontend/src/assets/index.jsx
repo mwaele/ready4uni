@@ -1,0 +1,1 @@
+export {default as member1 } from "./member-1.jpeg";
